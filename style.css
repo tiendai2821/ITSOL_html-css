@@ -1,0 +1,163 @@
+.colorfood{
+    background-color: rgb(211, 210, 209);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a{
+    float: left;
+  }
+  .flex{
+    display: flex;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .headerstyle{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-block {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    background-color: none;
+    color: white;
+  }
+  .column{
+    float: left;
+    width: 32.5%;
+    margin: 5px;
+  }
+  .columnfood{
+    float: left;
+    width: 32.5%;
+    margin: 5px;
+  }
+  @media screen and (max-width:992px) {
+  .column {
+    width: 50%;
+  }
+  .columnfood{
+    width: 100%;
+  }
+  .image{
+    visibility: hidden;
+  }
+  .text-block{
+    color: black;
+  }
+  .flex{
+    background-color: black;
+    color: white;
+  }
+  ul{
+    background-color: rgb(100, 98, 98);
+  }
+  li a{
+    color: white;
+  }
+  }
+  .marginbt{
+    margin-bottom: auto;
+    overflow: auto;
+  }
+  @media screen and (max-width:768px) {
+  .column {
+    width: 100%;
+  }
+  }
+.body-color{
+  background-color: blue;
+}
+.footer{
+  height: 200px;
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.center{
+  background-color: rgb(218, 218, 218);
+  height: 1100px ;
+    }
+.image{
+  width: 100%;
+}
+.text1{
+  font-size: 25px; 
+  margin-left: 30px; 
+  margin-bottom: 0;
+}
+.text2{
+  color: grey; 
+  margin-left: 30px; 
+  margin-top: 0; 
+  margin-bottom: 15px;
+}
+
+.style1{
+  width: 80%;
+}
+
+.style2{
+  float: right;
+}
+
+.style4{
+  margin-right: 50px;
+}
+
+.style3{
+  margin-left: 50px;
+}
+
+.p1{
+  font-size: 45px;
+  margin: 0;
+}
+
+.p2{
+  font-size: 20px;
+  margin: 0;
+}
+
+.imgtype1{
+  width:100%; 
+  margin-bottom: 10px;
+}
+
+.imgtype2{
+  width:100%
+}
+
+.imgtype3{
+  width:100%; 
+  margin-bottom: 10px;
+}
+
+.imgtype4{
+  width:100% ; 
+  height: 462px;
+}
+
+.text-none{
+  text-decoration: none
+}
